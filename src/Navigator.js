@@ -1,10 +1,17 @@
 // Navigator class
 
-function Navigator() {
+class Navigator {
+  constructor() {
+    this.infos = {
+      appCodeName: navigator.appCodeName,
+      appName: navigator.appName
+    };
+  }
+
+  getName() {
+    const { appCodeName, appName } = this.infos;
+    return appCodeName + ' (' + appName + ')';
+  }
 }
 
-Navigator.prototype.getName = function() {
-  return navigator.appCodeName + ' (' + navigator.appName + ')';
-}
-
-module.exports = Navigator;
+export default Navigator;

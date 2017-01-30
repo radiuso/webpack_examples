@@ -1,6 +1,6 @@
-const Navigator = require('./Navigator');
+import Navigator from './Navigator';
 
-console.log(Navigator);
+// set title
 document.getElementById('title').innerHTML = 'Hello webpack !!';
 
 //set subtitle
