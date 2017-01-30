@@ -1,0 +1,28 @@
+{
+  "name": "webpack_examples",
+  "version": "1.0.0",
+  "description": "webpack configurations examples",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiuso/webpack_examples.git"
+  },
+  "keywords": [
+    "webpack",
+    "examples",
+    "loaders"
+  ],
+  "author": "Radiuso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radiuso/webpack_examples/issues"
+  },
+  "homepage": "https://github.com/radiuso/webpack_examples#readme",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  }
+}
